@@ -13,7 +13,7 @@ const messages = [
 
 let messageIndex = 0;
 
-function handleNoClick() {
+function handleÑoClick() {
     const ñoButton = document.querySelector('.ño-button');
     const chiButton = document.querySelector('.chi-button');
     ñoButton.textContent = messages[messageIndex];
@@ -22,6 +22,6 @@ function handleNoClick() {
     chiButton.style.fontSize = `${currentSize * 1.5}px`;
 }
 
-function handleYesClick() {
+function handleChiClick() {
     window.location.href = "yes_page.html";
 }
